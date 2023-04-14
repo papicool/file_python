@@ -15,7 +15,7 @@ pipeline {
         }
         stage('exe') {
             steps{
-                sh 'python fibonacci.py'
+                sh 'python devise.py'
             }
             
         }
