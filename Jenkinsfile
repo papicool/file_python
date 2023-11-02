@@ -8,7 +8,7 @@ pipeline {
         stage('Checkout') {
             steps{
                 script{
-                    git branch: 'main', url: 'https://github.com/solbarre/file_python.git'
+                    git branch: 'main', url: 'https://github.com/papicool/file_python.git'
                     sh "ls -lart ./*"
                 }
             }
